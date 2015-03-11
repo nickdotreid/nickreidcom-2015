@@ -1,5 +1,5 @@
 <div class="container">
-  <header class="banner column column-left" role="banner">
+  <header class="banner" role="banner">
     <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a>
     <nav class="navbar" role="navigation">
       <?php
@@ -9,5 +9,4 @@
       ?>
     </nav>
   </header>
-  <div class="column column-main">
 

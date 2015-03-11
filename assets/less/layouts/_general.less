@@ -8,3 +8,25 @@
     .make-sm-column(@main-sm-columns - @sidebar-sm-columns);
   }
 }
+
+.container{
+	padding:0px !important;
+}
+
+@media(min-width: @screen-sm){
+	.banner, .wrap{
+		display:block;
+		float:left;
+	}
+	.banner{
+		width: @banner-width;
+		margin-right:@space-size;
+	}
+	.wrap{
+		width: @container-sm - @banner-width - @space-size;
+	}
+
+	.column-small{
+		width:250px;
+	}	
+}
