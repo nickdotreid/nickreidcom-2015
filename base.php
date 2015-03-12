@@ -7,7 +7,7 @@
   ?>
 
   <div class="wrap" role="document">
-    <div class="content row">
+    <div class="row">
       <main class="main" role="main">
         <?php include roots_template_path(); ?>
       </main><!-- /.main -->
