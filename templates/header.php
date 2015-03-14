@@ -1,6 +1,7 @@
 <div class="container">
   <header class="banner" role="banner">
     <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a>
+    <?php dynamic_sidebar('sidebar-banner'); ?>
     <nav class="navbar navbar-default" role="navigation">
       <?php
         if (has_nav_menu('primary_navigation')) :
