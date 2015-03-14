@@ -38,6 +38,15 @@
 	padding:0px !important;
 }
 
+.nickreid-photo{
+	background-image:url('../img/nickreid-picture.jpg');
+	background-repeat:no-repeat;
+	background-position:top left;
+	display:block;
+	width:600px;
+	height:200px;
+}
+
 @media(min-width: @screen-sm){
 	.banner, .wrap{
 		display:block;
@@ -53,6 +62,12 @@
 
 	.column-small{
 		width:250px;
-	}	
+	}
+
+	footer .nickreid-photo{
+		width: @banner-width;
+		float:left;
+		background-position: -90px 0px;
+	}
 }
 

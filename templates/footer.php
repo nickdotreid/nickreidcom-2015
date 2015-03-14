@@ -1,6 +1,9 @@
 </div><!-- container -->
 <footer class="content-info" role="contentinfo">
   <div class="container">
-    <?php dynamic_sidebar('sidebar-footer'); ?>
+  	<div class="nickreid-photo"></div>
+  	<div class="wrap">
+    	<?php dynamic_sidebar('sidebar-footer'); ?>
+	</div>
   </div>
 </footer>
