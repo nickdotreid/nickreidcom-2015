@@ -47,7 +47,21 @@
 	height:200px;
 }
 
+@media(min-width: @screen-xs){
+	.container{
+		width: @container-xs;
+	}
+
+	footer .nickreid-photo{
+		width: @container-xs;
+		background-position: -105px 0px;
+	}
+}
+
 @media(min-width: @screen-sm){
+	.container{
+		width:@container-sm;
+	}
 	.banner, .wrap{
 		display:block;
 		float:left;
