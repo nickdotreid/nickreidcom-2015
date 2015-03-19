@@ -82,3 +82,69 @@ function create_project_type() {
   );
 }
 add_action( 'init', 'create_project_type' );
+
+if(function_exists("register_field_group"))
+{
+  register_field_group(array (
+    'id' => 'acf_project-gallery-configure',
+    'title' => 'Project Gallery Configure',
+    'fields' => array (
+      array (
+        'key' => 'field_5505a04c441f0',
+        'label' => 'Projects To Display',
+        'name' => 'projects',
+        'type' => 'repeater',
+        'sub_fields' => array (
+          array (
+            'key' => 'field_5505a073441f1',
+            'label' => 'Project',
+            'name' => 'project',
+            'type' => 'post_object',
+            'column_width' => '',
+            'post_type' => array (
+              0 => 'project',
+            ),
+            'taxonomy' => array (
+              0 => 'all',
+            ),
+            'allow_null' => 0,
+            'multiple' => 0,
+          ),
+          array (
+            'key' => 'field_5505a26edca70',
+            'label' => 'Display Link',
+            'name' => 'display_link',
+            'type' => 'true_false',
+            'instructions' => 'This will show or hide a project page\'s direct link',
+            'column_width' => '',
+            'message' => '',
+            'default_value' => 1,
+          ),
+        ),
+        'row_min' => '',
+        'row_limit' => '',
+        'layout' => 'table',
+        'button_label' => 'Add Project',
+      ),
+    ),
+    'location' => array (
+      array (
+        array (
+          'param' => 'page_template',
+          'operator' => '==',
+          'value' => 'project-gallery.php',
+          'order_no' => 0,
+          'group_no' => 0,
+        ),
+      ),
+    ),
+    'options' => array (
+      'position' => 'normal',
+      'layout' => 'no_box',
+      'hide_on_screen' => array (
+      ),
+    ),
+    'menu_order' => 0,
+  ));
+}
+
