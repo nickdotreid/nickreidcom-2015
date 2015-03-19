@@ -1,0 +1,24 @@
+@import '../_sprites';
+
+.navbar .icon{
+	background-image:none;
+	overflow:hidden;
+	a{
+		height:@navbar-height;
+		i{
+			.icon();
+		}
+	}
+	a span{
+		overflow:hidden;
+		display:block;
+		position:absolute;
+		top: -10px;
+		left:0px;
+		height:10px;
+	}
+}
+
+.navbar .icon-github a i{
+	.sprite(@github);
+}

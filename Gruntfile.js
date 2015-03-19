@@ -1,4 +1,5 @@
 'use strict';
+
 module.exports = function(grunt) {
   // Load all tasks
   require('load-grunt-tasks')(grunt);
@@ -23,6 +24,21 @@ module.exports = function(grunt) {
   ];
 
   grunt.initConfig({
+    css_sprite: {
+      options: {
+        'cssPath': '../img/',
+        'processor': 'less',
+        'orientation': 'horizontal',
+        'margin': 4
+      },
+      sprite: {
+        options: {
+          'style': 'assets/less/_sprites.less'
+        },
+        src: ['assets/img/sprites/*'],
+        dest: 'assets/img/sprites',
+      },
+    },
     jshint: {
       options: {
         jshintrc: '.jshintrc'
@@ -156,13 +172,14 @@ module.exports = function(grunt) {
       }
     }
   });
-
+ grunt.loadNpmTasks('css-sprite');
   // Register tasks
   grunt.registerTask('default', [
     'dev'
   ]);
   grunt.registerTask('dev', [
     'jshint',
+    'css_sprite',
     'less:dev',
     'autoprefixer:dev',
     'concat'
