@@ -23,7 +23,7 @@ if($projects):
 	</div>
 	<div class="nav navbar-default">
 		<ul class="nav navbar-nav">
-			<li><a href="#">Something</a></li>
+			<li>&nbsp;</li>
 		</ul>
 	</div>
 </div>
