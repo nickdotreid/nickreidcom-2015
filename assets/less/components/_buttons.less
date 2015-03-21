@@ -3,19 +3,27 @@
 .navbar .icon{
 	background-image:none;
 	overflow:hidden;
-	a{
+	a i{
+		.icon();
+		float:left;
+		margin-right:@space-size/2;
+	}
+}
+
+@media(min-width: @screen-sm){
+	.navbar .icon a{
 		height:@navbar-height;
 		i{
-			.icon();
+			margin-right:0px;
 		}
-	}
-	a span{
-		overflow:hidden;
-		display:block;
-		position:absolute;
-		top: -10px;
-		left:0px;
-		height:10px;
+		span{
+			overflow:hidden;
+			display:block;
+			position:absolute;
+			top: -10px;
+			left:0px;
+			height:10px;
+		}
 	}
 }
 
