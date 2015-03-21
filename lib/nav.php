@@ -86,6 +86,11 @@ function roots_nav_menu_args($args = '') {
     $roots_nav_menu_args['depth'] = 2;
   }
 
+  if(!$args['link_before'] && !$args['link_after']){
+    $roots_nav_menu_args['link_before'] = '<i></i><span>';
+    $roots_nav_menu_args['link_after'] = '</span>';
+  }
+
   return array_merge($args, $roots_nav_menu_args);
 }
 add_filter('wp_nav_menu_args', 'roots_nav_menu_args');
