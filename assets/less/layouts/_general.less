@@ -33,6 +33,11 @@
 .content{
 	background-color: #FFF;
 	padding:@space-size/2 @space-size;
+	.full-width{
+		display:block;
+		width:100%;
+		height:auto;
+	}
 }
 
 .navbar{
@@ -90,8 +95,9 @@
 	.container{
 		width: @container-desktop;
 	}
+	@wrap-width: @container-md - @banner-width - @space-size*2;
 	.wrap{
-		width: @container-md - @banner-width - @space-size*2;
+		width: @wrap-width;
 		margin-left:@space-size*2;
 	}
 }
