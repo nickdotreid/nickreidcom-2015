@@ -24,6 +24,18 @@ module.exports = function(grunt) {
   ];
 
   grunt.initConfig({
+    stripmq: {
+        //Viewport options
+        options: {
+            width: 1000,
+            type: 'screen'
+        },
+        all: {
+            files: {
+                'assets/css/main-old-ie.css': ['assets/css/main.css']
+            }
+        }
+    },
     css_sprite: {
       options: {
         'cssPath': '../img/',
@@ -181,6 +193,7 @@ module.exports = function(grunt) {
     'jshint',
     'css_sprite',
     'less:dev',
+    'stripmq',
     'autoprefixer:dev',
     'concat'
   ]);
