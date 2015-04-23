@@ -11,17 +11,28 @@
 }
 
 // Content wrapper
-.wrap { }
+.wrap {
+	.row{
+		margin-right:0px;
+		margin-left:0px;
+	}
+}
 
 // Main content area
-.main {
+.main{
+	.make-sm-column(@main-sm-columns);
+	margin:0px;
+	padding:0px @space-size;
+	padding-left: @space-size+10px;
+	.sidebar-primary & {
+		.make-sm-column(@main-sm-columns - @sidebar-sm-columns);
+	}
+}
+
+.wrapper-top .main {	
 	background-image:url('../img/content-shadow-last.png');
 	background-repeat:no-repeat;
-	background-position:left bottom;	
-  .make-sm-column(@main-sm-columns);
-  .sidebar-primary & {
-    .make-sm-column(@main-sm-columns - @sidebar-sm-columns);
-  }
+	background-position:left bottom;
 }
 
 .header{
@@ -83,8 +94,7 @@
 		width: @banner-width;
 	}
 	.wrap{
-		width: @container-sm - @banner-width - @space-size;
-		margin-left:@space-size;
+		width: @container-sm - @banner-width;
 	}
 
 	footer .nickreid-photo{
@@ -98,10 +108,11 @@
 	.container{
 		width: @container-desktop;
 	}
-	@wrap-width: @container-md - @banner-width - @space-size*2;
 	.wrap{
-		width: @wrap-width;
-		margin-left:@space-size*2;
+		width: @container-md - @banner-width;
+	}
+	.main{
+		padding:0px @space-size*2;
 	}
 }
 
