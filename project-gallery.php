@@ -21,11 +21,7 @@ if($projects):
 	<div class="content">
 		<?php the_content(); ?>
 	</div>
-	<div class="nav navbar-default">
-		<ul class="nav navbar-nav">
-			<li>&nbsp;</li>
-		</ul>
-	</div>
+	<div class="nav navbar-project navbar-post"></div>
 </div>
 		<?php
 	endforeach;
