@@ -3,3 +3,34 @@
 .hentry .byline { }
 .hentry .entry-content { }
 .hentry footer { }
+
+.post {
+	clear: both;
+	overflow: hidden;
+	margin-bottom: @space-size;
+	position: relative;
+	z-index: 10;
+	&::before {
+		background-color:@white;
+		height: 100%;
+		width: @container-desktop - @banner-width;
+		content: "";
+		position: absolute;
+		left: @banner-width;
+		z-index: -1;
+	}
+	.foreground {
+		background-color: @white;
+		float: right;
+		width: @container-desktop - @banner-width;
+		padding: @space-size;
+		position: relative;
+	}
+	.background {
+		float: left;
+		background-color: @gray;
+		width: @banner-width;
+		padding: @space-size;
+		font-size: @font-size-medium;
+	}
+}

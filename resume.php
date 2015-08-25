@@ -42,31 +42,31 @@ Template Name: Resume Page
 		<p><strong>Can do:</strong>After Effects, Axure, Node, Phonegap, PHP, R, Ruby, SASS, and Web Analytics</p>
 	</div>
 </div>
-<div class="resume-section">
+<div class="section resume-section">
 	<h2>Professional Experience</h2>
-	<div class="content">
-		<div class="row">
-			<div class="col-sm-4">
-				January 2015 – July 2015
-				Global Information Exchange Program
-				Development Lead, Fellow
-			</div>
-			<div class="col-sm-8">
-				With a health organization, iKure, we are developing technology to support maternal-child health efforts in rural India.
-			</div>
+	<div class="post resume-post">
+		<div class="background">
+			<p class="date">January 2015 – July 2015</p>
+			<p>Univeristy of Michigan, School of Information</p>
+			<p class="title">Global Information Exchange Program</p>
+			<ul>
+				<li>Fellow</li>
+				<li>Development Lead</li>
+			</ul>
+		</div>
+		<div class="foreground">
+			<p>With a health organization, iKure, we are developing technology to support maternal-child health efforts in rural India.</p>
 		</div>
 	</div>
-	<div class="content">
-		<div class="row">
-			<div class="col-sm-4">
-				May 2014 – May 2015
-				University of Michigan Health System
-				CS Mott Children’s Hospital
-				Design Researcher, Web Developer
-			</div>
-			<div class="col-sm-8">
-				Supported adolescent type 1 diabetics by creating products with a participatory process.
-			</div>
+	<div class="post resume-post">
+		<div class="background">
+			<p class="date">May 2014 – May 2015</p>
+			<p>University of Michigan Health System</p>
+			<p class="title">CS Mott Children’s Hospital</p>
+			<p>Design Researcher, Web Developer</p>
+		</div>
+		<div class="foreground">
+			<p>Supported adolescent type 1 diabetics by creating products with a participatory process.</p>
 		</div>
 	</div>
 
