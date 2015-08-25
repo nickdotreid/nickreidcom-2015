@@ -6,31 +6,56 @@
 
 .post {
 	clear: both;
-	overflow: hidden;
-	margin-bottom: @space-size;
+	margin: @space-size 0px;
 	position: relative;
 	z-index: 10;
-	&::before {
-		background-color:@white;
-		height: 100%;
-		width: @container-desktop - @banner-width;
-		content: "";
-		position: absolute;
-		left: @banner-width;
-		z-index: -1;
-	}
 	.foreground {
 		background-color: @white;
-		float: right;
-		width: @container-desktop - @banner-width;
 		padding: @space-size;
-		position: relative;
 	}
 	.background {
-		float: left;
 		background-color: @gray;
-		width: @banner-width;
 		padding: @space-size;
-		font-size: @font-size-medium;
 	}
+}
+
+@media(min-width: @screen-sm){
+	.post {
+		@content-width: @container-tablet - @banner-width;
+		&::before {
+			background-color:@white;
+			height: 100%;
+			width: @content-width;
+			content: "";
+			position: absolute;
+			left: @banner-width;
+			z-index: -1;
+		}
+		&::after {
+			content:"";
+			display: block;
+			clear:both;
+		}
+		.foreground {
+			float: right;
+			width: @content-width;
+		}
+		.background {
+			float: left;
+			width: @banner-width;
+		}
+	}
+}
+
+@media(min-width: @screen-md){
+	.post {
+		@content-width: @container-desktop - @banner-width;
+		&::before {
+			width: @content-width;
+		}
+		.foreground {
+			width: @content-width;
+		}
+	}
+
 }

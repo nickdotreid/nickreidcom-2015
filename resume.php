@@ -46,13 +46,11 @@ Template Name: Resume Page
 	<h2>Professional Experience</h2>
 	<div class="post resume-post">
 		<div class="background">
-			<p class="date">January 2015 – July 2015</p>
-			<p>Univeristy of Michigan, School of Information</p>
-			<p class="title">Global Information Exchange Program</p>
-			<ul>
-				<li>Fellow</li>
-				<li>Development Lead</li>
-			</ul>
+			<div class="date">January 2015 – July 2015</div>
+			<div>Univeristy of Michigan, School of Information</div>
+			<div class="title">Global Information Exchange Program</div>
+			<div class="role">Fellow</div>
+			<div class="role">Development Lead</div>
 		</div>
 		<div class="foreground">
 			<p>With a health organization, iKure, we are developing technology to support maternal-child health efforts in rural India.</p>
@@ -60,17 +58,66 @@ Template Name: Resume Page
 	</div>
 	<div class="post resume-post">
 		<div class="background">
-			<p class="date">May 2014 – May 2015</p>
-			<p>University of Michigan Health System</p>
-			<p class="title">CS Mott Children’s Hospital</p>
-			<p>Design Researcher, Web Developer</p>
+			<div class="date">May 2014 – May 2015</div>
+			<div>University of Michigan Health System</div>
+			<div class="title">CS Mott Children’s Hospital</div>
+			<div class="role">Design Researcher</div>
+			<div class="role">Web Developer</div>
 		</div>
 		<div class="foreground">
 			<p>Supported adolescent type 1 diabetics by creating products with a participatory process.</p>
 		</div>
 	</div>
-
-
-
-
+	<div class="post resume-post">
+		<div class="background">
+			<div class="date">June 2014 – August 2014</div>
+			<div class="title">CommunicateHealth</div>
+			<div class="role">User Experience Research Intern</div>
+		</div>
+		<div class="foreground">
+			<p>Worked on projects for Massachusetts Department of Public Health and the Office of Disease Prevention and Health Promotion.</p>
+		</div>
+	</div>
+	<div class="post resume-post">
+		<div class="background">
+			<div class="date">January 2013 – April 2013</div>
+			<div class="title">California Public Hospital Association</div>
+			<div class="role">Web Developer</div>
+		</div>
+		<div class="foreground">
+			<p>Translated a hospital accreditation workflow into a website that is being used by over 20 hospitals across California.</p>
+		</div>
+	</div>
+	<div class="post resume-post">
+		<div class="background">
+			<div class="date">August 2011 - December 2012</div>
+			<div>San Francisco Department of Public Health</div>
+			<div class="titile">HIV Prevention Section</div>
+			<div class="role">Campaign Coordinator</div>
+			<div class="role">Web Developer</div>
+		</div>
+		<div class="foreground">
+			<p>Worked across departments to coordinate and implement health education and awareness campaigns.</p>
+		</div>
+	</div>
+	<div class="post resume-post">
+		<div class="background">
+			<div class="date">October 2008 - January 2011</div>
+			<div class="title">DonorDigital</div>
+			<div>Web Developer</div>
+		</div>
+		<div class="foreground">
+			<p>Produced digital marketing campaigns for progressive national non-profits. Clients included: PETA, NPR, and the NAACP.</p>
+		</div>
+	</div>
+	<div class="post resume-post">
+		<div class="background">
+			<div class="date">August 2005 – August 2006</div>
+			<div class="title">Yahoo! Research - Berkeley</div>
+			<div>User Experience Intern</div>
+		</div>
+		<div class="foreground">
+			<p>Designed context aware photography and social video platforms.</p>
+		</div>
+	</div>
 </div>
