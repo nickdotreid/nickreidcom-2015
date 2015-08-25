@@ -53,7 +53,11 @@ Template Name: Resume Page
 			<div class="role">Development Lead</div>
 		</div>
 		<div class="foreground">
-			<p>With a health organization, iKure, we are developing technology to support maternal-child health efforts in rural India.</p>
+			<ul>
+				<li>Built an android application to support the 'last-mile' health work done by iKure, a health organization based in Kolkata, West Bengal.</li>
+				<li>Designed application for community health workers who primarily support maternal child health.</li>
+				<li>Experienced the difficulties of supporting low health and digital literacy populations in rural settings.</li>
+			</ul>
 		</div>
 	</div>
 	<div class="post resume-post">
