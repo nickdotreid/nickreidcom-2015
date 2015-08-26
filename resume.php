@@ -35,13 +35,6 @@ Template Name: Resume Page
 		</div>
 	</div>
 </div>
-<div class="resume-section">
-	<h2 class="heading">Skills</h2>
-	<div class="content">
-		<p><strong>Love:</strong>Backbone.js, Illustrator, Gantt Charts, Plain Language, Power Point, Python, and UX</p>
-		<p><strong>Can do:</strong>After Effects, Axure, Node, Phonegap, PHP, R, Ruby, SASS, and Web Analytics</p>
-	</div>
-</div>
 <div class="section resume-section">
 	<h2>Professional Experience</h2>
 	<div class="post resume-post">
