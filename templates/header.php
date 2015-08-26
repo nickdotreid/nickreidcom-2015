@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container container-header">
   <header class="banner" role="banner">
     <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a>
     <?php if (is_front_page()) {
@@ -12,4 +12,5 @@
       ?>
     </nav>
   </header>
+</div>
 

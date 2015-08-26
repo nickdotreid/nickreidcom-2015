@@ -45,7 +45,10 @@
 
 .container{
 	padding:0px !important;
+	position: relative;
 }
+
+
 
 .nickreid-photo{
 	background-image:url('../img/nickreid-picture.jpg');
@@ -70,17 +73,24 @@
 @media(min-width: @screen-sm){
 	.container{
 		width:@container-sm;
-	}
-	.banner, .wrap{
-		display:block;
-		float:left;
+		padding-left: @banner-width + @space-size !important;
 	}
 	.banner{
 		width: @banner-width;
+		position: absolute;
+		top: 0px;
+		left: 0px;
 	}
 	.wrap{
 		width: @container-sm - @banner-width - @space-size;
 		margin-left:@space-size;
+		display:block;
+		float: left;
+	}
+
+	.container-full.container,
+	.container-full .container {
+		padding-left: 0px !important;
 	}
 
 	footer .nickreid-photo{

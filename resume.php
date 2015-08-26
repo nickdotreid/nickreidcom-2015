@@ -1,16 +1,18 @@
 <?/*
 Template Name: Resume Page
 */?>
-<div class="alert alert-info">
-	Want to print my resume? <a href="#">Download a printable resume here.</a>
+<div class="container">
+	<div class="alert alert-info">
+		Want to print my resume? <a href="#">Download a printable resume here.</a>
+	</div>
 </div>
-<div class="section resume-section-large">
+<div class="container">
 	<h1 class="heading">Health Communication Designer and Developer</h1>
 	<div class="contnet">
 		<p>Creates health communication technologies that aid the continuous improvement of community health by simplifying problems and language that create functional and sustainable solutions.</p>
 	</div>
 </div>
-<div class="section resume-section">
+<div class="container">
 	<h2 class="heading">Education</h2>
 	<div class="row">
 		<div class="col-xs-6">
@@ -35,7 +37,7 @@ Template Name: Resume Page
 		</div>
 	</div>
 </div>
-<div class="section resume-section">
+<div class="container container-full">
 	<h2>Professional Experience</h2>
 	<div class="post resume-post">
 		<div class="background">
