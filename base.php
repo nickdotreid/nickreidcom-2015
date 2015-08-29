@@ -8,11 +8,9 @@
     ?>
 
     <div class="wrap" role="document">
-      <div class="row">
-        <main class="main" role="main">
-          <?php include roots_template_path(); ?>
-        </main><!-- /.main -->
-      </div><!-- /.content -->
+      <main class="main" role="main">
+        <?php include roots_template_path(); ?>
+      </main><!-- /.main -->
     </div><!-- /.wrap -->
   </div><!-- /.container-wrap -->
 
