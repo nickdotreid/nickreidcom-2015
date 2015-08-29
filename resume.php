@@ -64,7 +64,11 @@ Template Name: Resume Page
 			<div class="role">Web Developer</div>
 		</div>
 		<div class="foreground">
-			<p>Supported adolescent type 1 diabetics by creating products with a participatory process.</p>
+			<ul>
+				<li>Worked with Joyce Lee to design and organize a participatory research community for adlosecent type 1 diabetics.</li>
+				<li>Participatory outputs included, large design workshops, conducting design exercises with patients, and producing pilot projects.</li>
+				<li>One such output is a website that is a responsive website decision-aid to help with keto-doxiacodosis.</li> 
+			</ul>
 		</div>
 	</div>
 	<div class="post resume-post">
@@ -74,7 +78,11 @@ Template Name: Resume Page
 			<div class="role">User Experience Research Intern</div>
 		</div>
 		<div class="foreground">
-			<p>Worked on projects for Massachusetts Department of Public Health and the Office of Disease Prevention and Health Promotion.</p>
+			<ul>
+				<li>Colloberated with a multidiscplianry team to create campaigns with easy to understand health material.</li>
+				<li>Campaigns that I worked on included Massachusetts Department of Public Health and the Office of Disease Prevention and Health Promotion.</li>
+				<li>I also helped with other improvements, such as streamlining Q&A and knowledge retention processes, and prototyping an alternative way of illustrating health literacy.</li>
+			</ul>
 		</div>
 	</div>
 	<div class="post resume-post">
