@@ -14,35 +14,41 @@
 		padding: @space-size;
 	}
 	.background {
-		background-color: @gray;
 		padding: @space-size;
+		background-color: @gray;
 	}
 }
 
 @media(min-width: @screen-sm){
 	.post {
 		@content-width: @container-tablet - @banner-width;
-		&::before {
-			background-color:@white;
-			height: 100%;
-			width: @content-width;
-			content: "";
-			position: absolute;
-			left: @banner-width;
-			z-index: -1;
-		}
-		&::after {
-			content:"";
-			display: block;
-			clear:both;
-		}
-		.foreground {
-			float: right;
-			width: @content-width;
-		}
-		.background {
-			float: left;
-			width: @banner-width;
+		.content {
+			position:relative;
+			z-index: 10;
+			background-color: @gray;
+			padding: 0px;
+			&::before {
+				background-color:@white;
+				height: 100%;
+				width: @content-width;
+				content: "";
+				position: absolute;
+				left: @banner-width;
+				z-index: -1;
+			}
+			&::after {
+				content:"";
+				display: block;
+				clear:both;
+			}
+			.foreground {
+				float: right;
+				width: @content-width;
+			}
+			.background {
+				float: left;
+				width: @banner-width;
+			}
 		}
 	}
 }

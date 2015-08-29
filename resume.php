@@ -40,19 +40,22 @@ Template Name: Resume Page
 <div class="container container-full">
 	<h2>Professional Experience</h2>
 	<div class="post resume-post">
-		<div class="background">
-			<div class="date">January 2015 – July 2015</div>
-			<div>Univeristy of Michigan, School of Information</div>
-			<div class="title">Global Information Exchange Program</div>
-			<div class="role">Fellow</div>
-			<div class="role">Development Lead</div>
+		<div class="header parallax-midground">
+			<div class="meta date meta-date">January 2015 – July 2015</div>
+			<h3 class="title">Global Information Exchange Program</h3>
+			<div class="subtitle">Fellow and Development Lead</div>
 		</div>
-		<div class="foreground">
-			<ul>
-				<li>Built an android application to support the 'last-mile' health work done by iKure, a health organization based in Kolkata, West Bengal.</li>
-				<li>Designed application for community health workers who primarily support maternal child health.</li>
-				<li>Experienced the difficulties of supporting low health and digital literacy populations in rural settings.</li>
-			</ul>
+		<div class="content">
+			<div class="background">
+				<p>Univeristy of Michigan,<br /> School of Information</p>
+			</div>
+			<div class="foreground">
+				<ul>
+					<li>Built an android application to support the 'last-mile' health work done by iKure, a health organization based in Kolkata, West Bengal.</li>
+					<li>Designed application for community health workers who primarily support maternal child health.</li>
+					<li>Experienced the difficulties of supporting low health and digital literacy populations in rural settings.</li>
+				</ul>
+			</div>
 		</div>
 	</div>
 	<div class="post resume-post">
