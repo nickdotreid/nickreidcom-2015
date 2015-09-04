@@ -32,7 +32,7 @@
 		.content {
 			position:relative;
 			z-index: 10;
-			background-color: @gray;
+			background-color: transparent;
 			padding: 0px;
 			&::before {
 				background-color:@white;
@@ -55,6 +55,16 @@
 			.background {
 				float: left;
 				width: @banner-width;
+				&::before {
+					background-color: @gray;
+					height: 100%;
+					width: @container-tablet;
+					content: " ";
+					position: absolute;
+					top: 0px;
+					left: 0px;
+					z-index: -15;
+				}
 			}
 		}
 	}
@@ -63,11 +73,16 @@
 @media(min-width: @screen-md){
 	.post {
 		@content-width: @container-desktop - @banner-width;
-		&::before {
-			width: @content-width;
-		}
-		.foreground {
-			width: @content-width;
+		.content {
+			&::before {
+				width: @content-width;
+			}
+			.foreground {
+				width: @content-width;
+			}
+			.background::before {
+				width: @container-desktop;
+			}
 		}
 	}
 

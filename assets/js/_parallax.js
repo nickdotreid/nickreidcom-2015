@@ -9,8 +9,8 @@ $(document).ready(function () {
 			var containerMiddle = container.offset().top + container.height()/2;
 			var difference = middlePage - containerMiddle;
 			//var top = Number(div.css('top').replace('px', ''));
-			$('.parallax-midground', container).css('top', difference/20);
-			$('.parallax-background', container).css('top', difference/10);
+			$('.parallax-midground', container).css('top', difference/50);
+			$('.parallax-background', container).css('top', -difference/10);
 		});
 	});
 });
