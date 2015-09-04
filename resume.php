@@ -39,17 +39,17 @@ Template Name: Resume Page
 </div>
 <div class="container container-full">
 	<h2>Professional Experience</h2>
-	<div class="post resume-post">
+	<div class="post resume-post parallax-container">
 		<div class="header parallax-midground">
 			<div class="meta date meta-date">January 2015 – July 2015</div>
 			<h3 class="title">Global Information Exchange Program</h3>
 			<div class="subtitle">Fellow and Development Lead</div>
 		</div>
 		<div class="content">
-			<div class="background">
+			<div class="background parallax-background">
 				<p>Univeristy of Michigan,<br /> School of Information</p>
 			</div>
-			<div class="foreground">
+			<div class="foreground parallax-foreground">
 				<ul>
 					<li>Built an android application to support the 'last-mile' health work done by iKure, a health organization based in Kolkata, West Bengal.</li>
 					<li>Designed application for community health workers who primarily support maternal child health.</li>
@@ -58,76 +58,102 @@ Template Name: Resume Page
 			</div>
 		</div>
 	</div>
-	<div class="post resume-post">
-		<div class="background">
+	<div class="post resume-post parallax-container">
+		<div class="header parallax-midground">
 			<div class="date">May 2014 – May 2015</div>
-			<div>University of Michigan Health System</div>
-			<div class="title">CS Mott Children’s Hospital</div>
-			<div class="role">Design Researcher</div>
-			<div class="role">Web Developer</div>
+			<h3 class="title">Health Design By Us</h3>
+			<div class="subtitle">Design Researcher and Web Developer</div>
 		</div>
-		<div class="foreground">
-			<ul>
-				<li>Worked with Joyce Lee to design and organize a participatory research community for adlosecent type 1 diabetics.</li>
-				<li>Participatory outputs included, large design workshops, conducting design exercises with patients, and producing pilot projects.</li>
-				<li>One such output is a website that is a responsive website decision-aid to help with keto-doxiacodosis.</li> 
-			</ul>
+		<div class="content">
+			<div class="background parallax-background">
+				<p>University of Michigan Health System, <br />CS Mott Children’s Hospital</p>
+			</div>
+			<div class="foreground parallax-foreground">
+				<ul>
+					<li>Worked with Joyce Lee to design and organize a participatory research community for adlosecent type 1 diabetics.</li>
+					<li>Participatory outputs included, large design workshops, conducting design exercises with patients, and producing pilot projects.</li>
+					<li>One such output is a website that is a responsive website decision-aid to help with keto-doxiacodosis.</li> 
+				</ul>
+			</div>
 		</div>
 	</div>
-	<div class="post resume-post">
-		<div class="background">
+	<div class="post resume-post parallax-container">
+		<div class="header parallax-midground">
 			<div class="date">June 2014 – August 2014</div>
-			<div class="title">CommunicateHealth</div>
+			<h3 class="title">CommunicateHealth</h3>
 			<div class="role">User Experience Research Intern</div>
 		</div>
-		<div class="foreground">
-			<ul>
-				<li>Colloberated with a multidiscplianry team to create campaigns with easy to understand health material.</li>
-				<li>Campaigns that I worked on included Massachusetts Department of Public Health and the Office of Disease Prevention and Health Promotion.</li>
-				<li>I also helped with other improvements, such as streamlining Q&A and knowledge retention processes, and prototyping an alternative way of illustrating health literacy.</li>
-			</ul>
+		<div class="content">
+			<div class="background parallax-background">
+
+			</div>
+			<div class="foreground parallax-foreground">
+				<ul>
+					<li>Colloberated with a multidiscplianry team to create campaigns with easy to understand health material.</li>
+					<li>Campaigns that I worked on included Massachusetts Department of Public Health and the Office of Disease Prevention and Health Promotion.</li>
+					<li>I also helped with other improvements, such as streamlining Q&A and knowledge retention processes, and prototyping an alternative way of illustrating health literacy.</li>
+				</ul>
+			</div>
 		</div>
 	</div>
-	<div class="post resume-post">
-		<div class="background">
+	<div class="post resume-post parallax-container">
+		<div class="header parallax-midground">
 			<div class="date">January 2013 – April 2013</div>
-			<div class="title">California Public Hospital Association</div>
+			<h3 class="title">California Public Hospital Association</h3>
 			<div class="role">Web Developer</div>
 		</div>
-		<div class="foreground">
-			<p>Translated a hospital accreditation workflow into a website that is being used by over 20 hospitals across California.</p>
+		<div class="content">
+			<div class="background parallax-background">
+
+			</div>
+			<div class="foreground parallax-foreground">
+				<p>Translated a hospital accreditation workflow into a website that is being used by over 20 hospitals across California.</p>
+			</div>
 		</div>
 	</div>
-	<div class="post resume-post">
-		<div class="background">
+	<div class="post resume-post parallax-container">
+		<div class="header parallax-midground">
 			<div class="date">August 2011 - December 2012</div>
-			<div>San Francisco Department of Public Health</div>
-			<div class="titile">HIV Prevention Section</div>
-			<div class="role">Campaign Coordinator</div>
-			<div class="role">Web Developer</div>
+			<h3 class="titile">HIV Prevention Section</h3>
+			<div class="role">Campaign Coordinator and Web Developer</div>
 		</div>
-		<div class="foreground">
-			<p>Worked across departments to coordinate and implement health education and awareness campaigns.</p>
-		</div>
-	</div>
-	<div class="post resume-post">
-		<div class="background">
-			<div class="date">October 2008 - January 2011</div>
-			<div class="title">DonorDigital</div>
-			<div>Web Developer</div>
-		</div>
-		<div class="foreground">
-			<p>Produced digital marketing campaigns for progressive national non-profits. Clients included: PETA, NPR, and the NAACP.</p>
+		<div class="content">
+			<div class="background parallax-background">
+				<div>San Francisco Department of Public Health</div>
+			</div>
+			<div class="foreground parallax-foreground">
+				<p>Worked across departments to coordinate and implement health education and awareness campaigns.</p>
+			</div>
 		</div>
 	</div>
-	<div class="post resume-post">
-		<div class="background">
+	<div class="post resume-post parallax-container">
+		<div class="header parallax-midground">
+				<div class="date">October 2008 - January 2011</div>
+				<h3 class="title">DonorDigital</h3>
+				<div>Web Developer</div>			
+		</div>
+		<div class="content">
+			<div class="background parallax-background">
+
+			</div>
+			<div class="foreground parallax-foreground">
+				<p>Produced digital marketing campaigns for progressive national non-profits. Clients included: PETA, NPR, and the NAACP.</p>
+			</div>
+		</div>
+	</div>
+	<div class="post resume-post parallax-container">
+		<div class="header parallax-midground">
 			<div class="date">August 2005 – August 2006</div>
-			<div class="title">Yahoo! Research - Berkeley</div>
+			<h3 class="title">Yahoo! Research - Berkeley</h3>
 			<div>User Experience Intern</div>
 		</div>
-		<div class="foreground">
-			<p>Designed context aware photography and social video platforms.</p>
+		<div class="content">
+			<div class="background">
+				
+			</div>
+			<div class="foreground">
+				<p>Designed context aware photography and social video platforms.</p>
+			</div>
 		</div>
 	</div>
 </div>
