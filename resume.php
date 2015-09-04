@@ -148,10 +148,10 @@ Template Name: Resume Page
 			<div>User Experience Intern</div>
 		</div>
 		<div class="content">
-			<div class="background">
+			<div class="background parallax-background">
 				
 			</div>
-			<div class="foreground">
+			<div class="foreground parallax-foreground">
 				<p>Designed context aware photography and social video platforms.</p>
 			</div>
 		</div>
