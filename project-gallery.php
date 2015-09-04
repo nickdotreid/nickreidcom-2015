@@ -3,7 +3,7 @@ Template Name: Project Gallery
 */?>
 
 <?php while (have_posts()) : the_post(); ?>
-<div class="project-gallery-top">
+<div class="project-gallery-top container">
   <?php get_template_part('templates/page', 'header'); ?>
   <?php get_template_part('templates/content', 'page'); ?>
 </div>
@@ -14,7 +14,7 @@ if($projects):
 		$post = $object['project'];
 		setup_postdata($post);
 		?>
-<div class="project project-gallery-item">
+<div class="container project project-gallery-item">
 	<div class="header">
 		<h2><?php echo roots_title(); ?></h2>
 	</div>

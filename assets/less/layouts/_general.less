@@ -37,6 +37,7 @@ h3, h5 {
 // Main content area
 .main {
 	margin-top: @space-size;
+	float: none !important;
   .make-sm-column(@main-sm-columns);
   .sidebar-primary & {
     .make-sm-column(@main-sm-columns - @sidebar-sm-columns);
@@ -104,12 +105,6 @@ h3, h5 {
 		left: 0px;
 		z-index:10;
 	}
-	.wrap{
-		width: @container-sm - @banner-width - @space-size;
-		margin-left:@space-size;
-		display:block;
-		float: left;
-	}
 
 	.container-full.container,
 	.container-full .container {
@@ -124,13 +119,9 @@ h3, h5 {
 }
 
 @media(min-width: @screen-md){
+	@wrap-width: @container-md - @banner-width - @space-size*2;
 	.container{
 		width: @container-desktop;
-	}
-	@wrap-width: @container-md - @banner-width - @space-size*2;
-	.wrap{
-		width: @wrap-width;
-		margin-left:@space-size*2;
 	}
 }
 
