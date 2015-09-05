@@ -37,7 +37,7 @@ Template Name: Resume Page
 					<div class="date">May 2008</div>
 					<div class="title">Bachelor of Art in Art Practice</div>
 				</div>
-				<div class="body post-body">
+				<div class="body post-body parallax-background">
 					<div class="content parallax-foreground">
 						<p>University of California at Berkeley<br />
 						Berkeley, CA
