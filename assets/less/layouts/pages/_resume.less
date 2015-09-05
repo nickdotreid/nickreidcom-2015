@@ -1,5 +1,29 @@
 @media(min-width: @screen-sm){
-	.page-template-resume {
-
+	.post.post-resume {
+		@content-width: @container-tablet - @banner-width;
+		.content {
+			width: @content-width;
+			margin-right: 0px;
+			float: right;
+		}
+		.notes {
+			width: @banner-width;
+			float: left;
+		}
 	}
+}
+
+@media(min-width: @screen-md){
+	.post.post-resume {
+		@content-width: @container-desktop - @banner-width;
+		.body {
+			&::before {
+				width: @content-width;
+			}
+		}
+		.content {
+			width: @content-width;
+		}
+	}
+
 }

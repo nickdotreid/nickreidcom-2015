@@ -26,7 +26,6 @@
 
 @media(min-width: @screen-sm){
 	.post {
-		@content-width: @container-tablet - @banner-width/2;
 		.body {
 			position:relative;
 			background-color: @gray;
@@ -38,27 +37,13 @@
 			}
 		}
 		.content {
-			float: right;
-			width: @content-width;
-		}
-		.notes {
-			float: left;
-			width: @banner-width/2;
+			margin-right: @space-size*2;
 		}
 	}
 }
 
 @media(min-width: @screen-md){
 	.post {
-		@content-width: @container-desktop - @banner-width/2;
-		.body {
-			&::before {
-				width: @content-width;
-			}
-		}
-		.content {
-			width: @content-width;
-		}
-	}
 
+	}
 }

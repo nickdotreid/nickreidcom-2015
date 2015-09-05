@@ -16,30 +16,41 @@ Template Name: Resume Page
 	<h2 class="heading">Education</h2>
 	<div class="row">
 		<div class="col-xs-6">
-			<div class="content">
-				<div class="date">May 2015</div>
-				<div class="title">Master of Health Informatics</div>
-				<p>
-					University of Michigan<br />
-					Ann Arbor, MI
-				</p>
+			<div class="post parallax-container">
+				<div class="header parallax-midground">
+					<div class="date">May 2015</div>
+					<div class="title">Master of Health Informatics</div>
+				</div>
+				<div class="post-body body parallax-background">
+					<div class="content parallax-foreground">
+						<p>
+							University of Michigan<br />
+							Ann Arbor, MI
+						</p>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="col-xs-6">
-			<div class="content">
-				<div class="date">May 2008</div>
-				<div class="title">Bachelor of Art in Art Practice</div>
-				<p>
-					University of California at Berkeley<br />
-					Berkeley, CA
-				</p>
+			<div class="post parallax-container">
+				<div class="header parallax-midground">
+					<div class="date">May 2008</div>
+					<div class="title">Bachelor of Art in Art Practice</div>
+				</div>
+				<div class="body post-body">
+					<div class="content parallax-foreground">
+						<p>University of California at Berkeley<br />
+						Berkeley, CA
+						</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </div>
 <div class="container container-full">
 	<h2>Professional Experience</h2>
-	<div class="post resume-post parallax-container">
+	<div class="post post-resume parallax-container">
 		<div class="header post-header parallax-midground">
 			<div class="meta date meta-date">January 2015 – July 2015</div>
 			<div>Univeristy of Michigan, School of Information</div>
@@ -56,7 +67,7 @@ Template Name: Resume Page
 			</div>
 		</div>
 	</div>
-	<div class="post resume-post parallax-container">
+	<div class="post post-resume parallax-container">
 		<div class="header parallax-midground">
 			<div class="date">May 2014 – May 2015</div>
 			<div>University of Michigan Health System, CS Mott Children’s Hospital</div>
@@ -73,7 +84,7 @@ Template Name: Resume Page
 			</div>
 		</div>
 	</div>
-	<div class="post resume-post parallax-container">
+	<div class="post post-resume parallax-container">
 		<div class="header parallax-midground">
 			<div class="date">June 2014 – August 2014</div>
 			<h3 class="title">CommunicateHealth</h3>
@@ -89,7 +100,7 @@ Template Name: Resume Page
 			</div>
 		</div>
 	</div>
-	<div class="post resume-post parallax-container">
+	<div class="post post-resume parallax-container">
 		<div class="header parallax-midground">
 			<div class="date">January 2013 – April 2013</div>
 			<h3 class="title">California Public Hospital Association</h3>
@@ -101,22 +112,20 @@ Template Name: Resume Page
 			</div>
 		</div>
 	</div>
-	<div class="post resume-post parallax-container">
+	<div class="post post-resume parallax-container">
 		<div class="header parallax-midground">
 			<div class="date">August 2011 - December 2012</div>
+			<div>San Francisco Department of Public Health</div>
 			<h3 class="titile">HIV Prevention Section</h3>
 			<div class="role">Campaign Coordinator and Web Developer</div>
 		</div>
 		<div class="body post-body parallax-background">
-			<div class="notes post-notes">
-				<div>San Francisco Department of Public Health</div>
-			</div>
 			<div class="content parallax-foreground">
 				<p>Worked across departments to coordinate and implement health education and awareness campaigns.</p>
 			</div>
 		</div>
 	</div>
-	<div class="post resume-post parallax-container">
+	<div class="post post-resume parallax-container">
 		<div class="header parallax-midground">
 				<div class="date">October 2008 - January 2011</div>
 				<h3 class="title">DonorDigital</h3>
@@ -128,7 +137,7 @@ Template Name: Resume Page
 			</div>
 		</div>
 	</div>
-	<div class="post resume-post parallax-container">
+	<div class="post post-resume parallax-container">
 		<div class="header parallax-midground">
 			<div class="date">August 2005 – August 2006</div>
 			<h3 class="title">Yahoo! Research - Berkeley</h3>
