@@ -9,14 +9,6 @@
 	margin: @space-size 0px;
 	position: relative;
 	z-index: 10;
-	.foreground {
-		background-color: @white;
-		padding: @space-size;
-	}
-	.background {
-		padding: @space-size;
-		background-color: @gray;
-	}
 	.title {
 		margin-top: 0px;
 	}
@@ -24,65 +16,48 @@
 		font-style: italic;
 		font-size: @font-size-small;
 	}
+	.body {
+		background-color: @gray;
+	}
+	.notes, .content {
+		padding: @space-size*2 @space-size;
+	}
 }
 
 @media(min-width: @screen-sm){
 	.post {
-		@content-width: @container-tablet - @banner-width;
-		.content {
+		@content-width: @container-tablet - @banner-width/2;
+		.body {
 			position:relative;
-			z-index: 10;
-			background-color: transparent;
+			background-color: @gray;
 			padding: 0px;
-			&::before {
-				background-color:@white;
-				height: 100%;
-				width: @content-width;
-				content: "";
-				position: absolute;
-				left: @banner-width;
-				z-index: -1;
-			}
 			&::after {
 				content:"";
 				display: block;
 				clear:both;
 			}
-			.foreground {
-				float: right;
-				width: @content-width;
-			}
-			.background {
-				float: left;
-				width: @banner-width;
-				&::before {
-					background-color: @gray;
-					height: 100%;
-					width: @container-tablet;
-					content: " ";
-					position: absolute;
-					top: 0px;
-					left: 0px;
-					z-index: -15;
-				}
-			}
+		}
+		.content {
+			float: right;
+			width: @content-width;
+		}
+		.notes {
+			float: left;
+			width: @banner-width/2;
 		}
 	}
 }
 
 @media(min-width: @screen-md){
 	.post {
-		@content-width: @container-desktop - @banner-width;
-		.content {
+		@content-width: @container-desktop - @banner-width/2;
+		.body {
 			&::before {
 				width: @content-width;
 			}
-			.foreground {
-				width: @content-width;
-			}
-			.background::before {
-				width: @container-desktop;
-			}
+		}
+		.content {
+			width: @content-width;
 		}
 	}
 

@@ -1,15 +1,22 @@
 .parallax-foreground {
 	// normal screen movement
+	z-index: 10;
 }
 
 .parallax-midground {
 	// backwards movement
-	position:relative;
-	z-index: -5;
+	position:static;
+	z-index: 5;
 }
 
 .parallax-background {
 	// slow background movement
-	position:relative;
-	z-index: -10;
+	position:static;
+	z-index: 0;
+}
+
+@media(min-width: @screen-sm){
+	.parallax-background, .parallax-midground, .parallax-foreground {
+		position: relative;
+	}
 }

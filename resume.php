@@ -40,16 +40,14 @@ Template Name: Resume Page
 <div class="container container-full">
 	<h2>Professional Experience</h2>
 	<div class="post resume-post parallax-container">
-		<div class="header parallax-midground">
+		<div class="header post-header parallax-midground">
 			<div class="meta date meta-date">January 2015 – July 2015</div>
+			<div>Univeristy of Michigan, School of Information</div>
 			<h3 class="title">Global Information Exchange Program</h3>
-			<div class="subtitle">Fellow and Development Lead</div>
+			<div class="subtitle">Fellow, and Development Lead</div>
 		</div>
-		<div class="content">
-			<div class="background parallax-background">
-				<p>Univeristy of Michigan,<br /> School of Information</p>
-			</div>
-			<div class="foreground parallax-foreground">
+		<div class="post-body body parallax-background">
+			<div class="content parallax-foreground">
 				<ul>
 					<li>Built an android application to support the 'last-mile' health work done by iKure, a health organization based in Kolkata, West Bengal.</li>
 					<li>Designed application for community health workers who primarily support maternal child health.</li>
@@ -61,14 +59,12 @@ Template Name: Resume Page
 	<div class="post resume-post parallax-container">
 		<div class="header parallax-midground">
 			<div class="date">May 2014 – May 2015</div>
+			<div>University of Michigan Health System, CS Mott Children’s Hospital</div>
 			<h3 class="title">Health Design By Us</h3>
 			<div class="subtitle">Design Researcher and Web Developer</div>
 		</div>
-		<div class="content">
-			<div class="background parallax-background">
-				<p>University of Michigan Health System, <br />CS Mott Children’s Hospital</p>
-			</div>
-			<div class="foreground parallax-foreground">
+		<div class="body post-body parallax-background">
+			<div class="content parallax-foreground">
 				<ul>
 					<li>Worked with Joyce Lee to design and organize a participatory research community for adlosecent type 1 diabetics.</li>
 					<li>Participatory outputs included, large design workshops, conducting design exercises with patients, and producing pilot projects.</li>
@@ -83,11 +79,8 @@ Template Name: Resume Page
 			<h3 class="title">CommunicateHealth</h3>
 			<div class="role">User Experience Research Intern</div>
 		</div>
-		<div class="content">
-			<div class="background parallax-background">
-
-			</div>
-			<div class="foreground parallax-foreground">
+		<div class="body post-body parallax-background">
+			<div class="content parallax-foreground">
 				<ul>
 					<li>Colloberated with a multidiscplianry team to create campaigns with easy to understand health material.</li>
 					<li>Campaigns that I worked on included Massachusetts Department of Public Health and the Office of Disease Prevention and Health Promotion.</li>
@@ -102,11 +95,8 @@ Template Name: Resume Page
 			<h3 class="title">California Public Hospital Association</h3>
 			<div class="role">Web Developer</div>
 		</div>
-		<div class="content">
-			<div class="background parallax-background">
-
-			</div>
-			<div class="foreground parallax-foreground">
+		<div class="body post-body parallax-background">
+			<div class="content parallax-foreground">
 				<p>Translated a hospital accreditation workflow into a website that is being used by over 20 hospitals across California.</p>
 			</div>
 		</div>
@@ -117,11 +107,11 @@ Template Name: Resume Page
 			<h3 class="titile">HIV Prevention Section</h3>
 			<div class="role">Campaign Coordinator and Web Developer</div>
 		</div>
-		<div class="content">
-			<div class="background parallax-background">
+		<div class="body post-body parallax-background">
+			<div class="notes post-notes">
 				<div>San Francisco Department of Public Health</div>
 			</div>
-			<div class="foreground parallax-foreground">
+			<div class="content parallax-foreground">
 				<p>Worked across departments to coordinate and implement health education and awareness campaigns.</p>
 			</div>
 		</div>
@@ -132,11 +122,8 @@ Template Name: Resume Page
 				<h3 class="title">DonorDigital</h3>
 				<div>Web Developer</div>			
 		</div>
-		<div class="content">
-			<div class="background parallax-background">
-
-			</div>
-			<div class="foreground parallax-foreground">
+		<div class="body post-body parallax-background">
+			<div class="content parallax-foreground">
 				<p>Produced digital marketing campaigns for progressive national non-profits. Clients included: PETA, NPR, and the NAACP.</p>
 			</div>
 		</div>
@@ -147,11 +134,8 @@ Template Name: Resume Page
 			<h3 class="title">Yahoo! Research - Berkeley</h3>
 			<div>User Experience Intern</div>
 		</div>
-		<div class="content">
-			<div class="background parallax-background">
-				
-			</div>
-			<div class="foreground parallax-foreground">
+		<div class="body post-body parallax-background">
+			<div class="content parallax-foreground">
 				<p>Designed context aware photography and social video platforms.</p>
 			</div>
 		</div>
