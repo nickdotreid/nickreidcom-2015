@@ -78,6 +78,7 @@ function create_project_type() {
       ),
       'public' => true,
       'has_archive' => true,
+      'supports' => array( 'thumbnail' ),
     )
   );
 }
