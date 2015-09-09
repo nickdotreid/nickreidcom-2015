@@ -14,14 +14,15 @@ if($projects):
 		$post = $object['project'];
 		setup_postdata($post);
 		?>
-<div class="container project project-gallery-item">
-	<div class="header">
+<div class="container post post-project project-gallery-item parallax-container">
+	<div class="header post-header parallax-midground">
 		<h2><?php echo roots_title(); ?></h2>
 	</div>
-	<div class="content">
-		<?php the_content(); ?>
+	<div class="body post-body parallax-background">
+		<div class="content parallax-foreground">
+			<?php the_content(); ?>
+		</div>
 	</div>
-	<div class="nav navbar-project navbar-post"></div>
 </div>
 		<?php
 	endforeach;
