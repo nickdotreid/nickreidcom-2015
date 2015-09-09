@@ -16,13 +16,30 @@ if($projects):
 		?>
 <div class="container post post-project project-gallery-item parallax-container">
 	<div class="header post-header parallax-midground">
-		<h2><?php echo roots_title(); ?></h2>
+		<h2><?php echo roots_title(); echo the_ID(); ?></h2>
 	</div>
 	<div class="body post-body parallax-background">
 		<div class="content parallax-foreground">
 			<?php the_content(); ?>
 		</div>
 	</div>
+	<?php
+	$gallery = get_field('gallery');
+	if ($gallery && sizeof($gallery) > 0) :
+		?>
+	<div class="gallery post-gallery parallax-background">
+		<?php
+			foreach($gallery as $slide):
+				?>
+		<div class="slide">
+			<img src="<?php echo $slide['image']['sizes']['thumbnail']; ?>" alt="" />
+			<div class="caption"><?php echo $slide['caption']; ?></div>
+ 		</div>
+				<?php
+			endforeach;
+		?>
+	</div>
+<?php endif; ?>
 </div>
 		<?php
 	endforeach;
