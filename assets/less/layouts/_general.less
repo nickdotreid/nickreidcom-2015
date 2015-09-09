@@ -111,10 +111,20 @@ h3, h5 {
 		padding-left: 0px !important;
 	}
 
-	footer .nickreid-photo{
-		width: @banner-width;
-		float:left;
-		background-position: -90px 0px;
+	footer{
+		.container{
+			padding-left: 0px !important;
+		}
+		.wrap {
+			display: block;
+			float: right;
+			width: @container-sm - @banner-width - @space-size;
+		}
+		.nickreid-photo{
+			width: @banner-width;
+			float:left;
+			background-position: -90px 0px;
+		}
 	}
 }
 
@@ -122,6 +132,9 @@ h3, h5 {
 	@wrap-width: @container-md - @banner-width - @space-size*2;
 	.container{
 		width: @container-desktop;
+	}
+	footer .wrap {
+		width: @container-desktop - @banner-width - @space-size;
 	}
 }
 
