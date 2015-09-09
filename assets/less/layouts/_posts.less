@@ -30,6 +30,20 @@
 	.notes, .content {
 		padding: @space-size*2 @space-size;
 	}
+	.gallery {
+		display: block;
+		overflow: hidden;
+		height: 150px;
+		margin: @space-size 0px;
+	}
+	.slide {
+		.caption {
+			display: none;
+		}
+		display: block;
+		float: left;
+		margin-right: @space-size;
+	}
 }
 
 @media(min-width: @screen-sm){
