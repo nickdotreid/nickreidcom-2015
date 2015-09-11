@@ -28,16 +28,22 @@ if($projects):
 	if ($gallery && sizeof($gallery) > 0) :
 		?>
 	<div class="gallery post-gallery parallax-background">
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+			<div class="carousel-inner" role="listbox">
 		<?php
+			$active = true;
 			foreach($gallery as $slide):
 				?>
-		<div class="slide">
+		<div class="item <?php if ($active): echo 'active'; $active = false; endif; ?>">
 			<img src="<?php echo $slide['image']['sizes']['thumbnail']; ?>" alt="" />
 			<div class="caption"><?php echo $slide['caption']; ?></div>
  		</div>
 				<?php
 			endforeach;
 		?>
+			</div>
+		</div><!-- / .carousel -->
 	</div>
 <?php endif; ?>
 </div>
