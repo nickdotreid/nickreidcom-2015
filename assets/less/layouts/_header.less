@@ -25,3 +25,31 @@
 .navbar-nav{
 	margin:0px;
 }
+
+.navbar.is_stuck{
+	z-index: 100;
+}
+
+.stuck-only {
+	display:none;
+}
+.is_stuck .stuck-only {
+	display: block;
+}
+
+.navbar a{
+	color: @text-color;
+}
+
+
+.is_stuck .stuck-sm {
+	display: none;
+}
+@media(min-width: @screen-sm){
+	.admin-bar header .is_stuck{
+		margin-top: 32px;
+	}
+	.is_stuck .stuck-sm{
+		display: block;
+	}
+}
