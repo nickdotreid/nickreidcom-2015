@@ -14,13 +14,15 @@ if($projects):
 		$post = $object['project'];
 		setup_postdata($post);
 		?>
-<div class="container post post-project project-gallery-item parallax-container">
-	<div class="header post-header parallax-midground">
+<div class="post post-project project-gallery-item parallax-container">
+	<div class="container header post-header parallax-midground">
 		<h2><?php echo roots_title(); echo the_ID(); ?></h2>
 	</div>
-	<div class="body post-body parallax-background">
-		<div class="content parallax-foreground">
-			<?php the_content(); ?>
+	<div class="container">
+		<div class="body post-body parallax-background">
+			<div class="content parallax-foreground">
+				<?php the_content(); ?>
+			</div>
 		</div>
 	</div>
 	<?php
@@ -40,7 +42,7 @@ if($projects):
 			<div class="carousel-inner" role="listbox">
 		<?php foreach($gallery as $index => $slide): ?>
 		<div class="item <?php if($index == 0): echo 'active'; endif; ?>">
-			<img src="<?php echo $slide['image']['sizes']['medium']; ?>" alt="" />
+			<img src="<?php echo $slide['image']['url']; ?>" alt="" />
 			<div class="caption"><?php echo $slide['caption']; ?></div>
  		</div>
 		<?php endforeach; ?>
