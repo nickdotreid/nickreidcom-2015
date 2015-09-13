@@ -22,13 +22,11 @@ if($projects):
 		<div class="content parallax-foreground">
 			<?php the_content(); ?>
 		</div>
-	</div>
 	<?php
 	$gallery = get_field('gallery');
 	if ($gallery && sizeof($gallery) > 0) :
 		?>
-	<div class="gallery post-gallery">
-		<div id="carousel-example-generic" class="carousel slide" data-interval="false" data-ride="carousel">
+		<div id="gallery-<?php the_ID(); ?>" class="project-carousel carousel slide" data-interval="false" data-ride="carousel">
 			<!-- Indicators -->
 			<ol class="carousel-indicators">
 				<?php foreach($gallery as $index => $slide): ?>
@@ -45,8 +43,10 @@ if($projects):
 		<?php endforeach; ?>
 			</div><!-- / .carousel-inner -->
 		</div><!-- / .carousel -->
-	</div>
 <?php endif; ?>
+
+
+	</div>
 </div>
 		<?php
 	endforeach;
