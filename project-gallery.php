@@ -26,11 +26,11 @@ if($projects):
 	$gallery = get_field('gallery');
 	if ($gallery && sizeof($gallery) > 0) :
 		?>
-		<div id="gallery-<?php the_ID(); ?>" class="project-carousel carousel slide" data-interval="false" data-ride="carousel">
+		<div id="carousel-<?php the_ID(); ?>" class="project-carousel carousel slide" data-interval="false" data-ride="carousel">
 			<!-- Indicators -->
 			<ol class="carousel-indicators">
 				<?php foreach($gallery as $index => $slide): ?>
-				<li data-target="#carousel-example-generic" data-slide-to="<?php echo $index; ?>" class="<?php if($index == 0): echo 'active'; endif; ?>"></li>
+				<li data-target="#carousel-<?php the_ID(); ?>" data-slide-to="<?php echo $index; ?>" class="<?php if($index == 0): echo 'active'; endif; ?>"></li>
 				<?php endforeach; ?>
 			</ol>
 
@@ -38,10 +38,21 @@ if($projects):
 		<?php foreach($gallery as $index => $slide): ?>
 		<div class="item <?php if($index == 0): echo 'active'; endif; ?>">
 			<img src="<?php echo $slide['image']['sizes']['large']; ?>" alt="" />
-			<div class="caption"><?php echo $slide['caption']; ?></div>
+			<div class="carousel-caption"><?php echo $slide['caption']; ?></div>
  		</div>
 		<?php endforeach; ?>
 			</div><!-- / .carousel-inner -->
+ 
+ <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-<?php the_ID(); ?>" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-<?php the_ID(); ?>" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
 		</div><!-- / .carousel -->
 <?php endif; ?>
 
