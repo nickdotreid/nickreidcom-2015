@@ -4,8 +4,8 @@
     dynamic_sidebar('sidebar-banner');
   } ?>
   <nav class="navbar navbar-default sticky" role="navigation">
-    <div class="stuck-only pull-left">
-      <ul class="nav navbar-nav">
+    <div class="stuck-only">
+      <ul class="nav navbar-nav nav-page">
         <li class="icon icon-top">
           <a class="scroll-to-top" href="#"><i></i><span>Back to top</span></a>
         </li>

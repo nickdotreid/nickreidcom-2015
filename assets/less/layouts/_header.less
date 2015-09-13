@@ -43,6 +43,17 @@
 	color: @text-color;
 }
 
+.navbar .nav-page {
+	background-color: @brand-primary;
+	color: @white;
+	li a{
+		color: @white;
+		&:hover {
+			background-color: lighten(@brand-primary, 20%);
+			color: @white;
+		}
+	}
+}
 
 .is_stuck .stuck-sm {
 	display: none;
@@ -53,5 +64,16 @@
 	}
 	.is_stuck .stuck-sm{
 		display: block;
+	}
+	.nav-page {
+		position: absolute;
+		top: 0px;
+		left: -50px;
+		z-index: 10;
+		font-size: @font-size-largest;
+		padding-top: @space-size * 2;
+		.icon-top a i{
+			height: 3px;
+		}
 	}
 }
