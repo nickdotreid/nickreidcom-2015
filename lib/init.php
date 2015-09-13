@@ -149,3 +149,106 @@ if(function_exists("register_field_group"))
   ));
 }
 
+if(function_exists("register_field_group"))
+{
+  register_field_group(array (
+    'id' => 'acf_project-fields',
+    'title' => 'Project Fields',
+    'fields' => array (
+      array (
+        'key' => 'field_550a38fd4497b',
+        'label' => 'Links',
+        'name' => 'links',
+        'type' => 'repeater',
+        'sub_fields' => array (
+          array (
+            'key' => 'field_550a391b4497c',
+            'label' => 'Text',
+            'name' => 'text',
+            'type' => 'text',
+            'required' => 1,
+            'column_width' => '',
+            'default_value' => '',
+            'placeholder' => '',
+            'prepend' => '',
+            'append' => '',
+            'formatting' => 'html',
+            'maxlength' => '',
+          ),
+          array (
+            'key' => 'field_550a39304497d',
+            'label' => 'HRef',
+            'name' => 'href',
+            'type' => 'text',
+            'required' => 1,
+            'column_width' => '',
+            'default_value' => '',
+            'placeholder' => '',
+            'prepend' => '',
+            'append' => '',
+            'formatting' => 'html',
+            'maxlength' => '',
+          ),
+        ),
+        'row_min' => '',
+        'row_limit' => '',
+        'layout' => 'table',
+        'button_label' => 'Add Row',
+      ),
+      array (
+        'key' => 'field_55f052334ab52',
+        'label' => 'Gallery',
+        'name' => 'gallery',
+        'type' => 'repeater',
+        'instructions' => 'Add images of this project',
+        'sub_fields' => array (
+          array (
+            'key' => 'field_55f0525b4ab53',
+            'label' => 'Image',
+            'name' => 'image',
+            'type' => 'image',
+            'column_width' => '',
+            'save_format' => 'object',
+            'preview_size' => 'thumbnail',
+            'library' => 'all',
+          ),
+          array (
+            'key' => 'field_55f052794ab54',
+            'label' => 'Caption',
+            'name' => 'caption',
+            'type' => 'wysiwyg',
+            'instructions' => 'Describe the image',
+            'column_width' => '',
+            'default_value' => '',
+            'toolbar' => 'basic',
+            'media_upload' => 'no',
+          ),
+        ),
+        'row_min' => '',
+        'row_limit' => '',
+        'layout' => 'table',
+        'button_label' => 'Add Row',
+      ),
+    ),
+    'location' => array (
+      array (
+        array (
+          'param' => 'post_type',
+          'operator' => '==',
+          'value' => 'project',
+          'order_no' => 0,
+          'group_no' => 0,
+        ),
+      ),
+    ),
+    'options' => array (
+      'position' => 'normal',
+      'layout' => 'no_box',
+      'hide_on_screen' => array (
+      ),
+    ),
+    'menu_order' => 0,
+  ));
+}
+
+
