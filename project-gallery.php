@@ -3,7 +3,7 @@ Template Name: Project Gallery
 */?>
 
 <?php while (have_posts()) : the_post(); ?>
-<div class="project-gallery-top container">
+<div class="post post-large post-top project-gallery-top">
   <?php get_template_part('templates/page', 'header'); ?>
   <?php get_template_part('templates/content', 'page'); ?>
 </div>
@@ -15,14 +15,12 @@ if($projects):
 		setup_postdata($post);
 		?>
 <div class="post post-project project-gallery-item parallax-container">
-	<div class="container header post-header parallax-midground">
-		<h2><?php echo roots_title(); echo the_ID(); ?></h2>
+	<div class="header post-header parallax-midground">
+		<h2><?php echo roots_title(); ?></h2>
 	</div>
-	<div class="container">
-		<div class="body post-body parallax-background">
-			<div class="content parallax-foreground">
-				<?php the_content(); ?>
-			</div>
+	<div class="body post-body parallax-background">
+		<div class="content parallax-foreground">
+			<?php the_content(); ?>
 		</div>
 	</div>
 	<?php

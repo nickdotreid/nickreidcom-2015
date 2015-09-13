@@ -11,6 +11,14 @@
 			float: left;
 		}
 	}
+	.section {
+		clear: both;
+	}
+	.section-top {
+		float: right;
+		clear: none;
+		width: @container-tablet - @banner-width - @space-size*2;
+	}
 }
 
 @media(min-width: @screen-md){
@@ -20,5 +28,7 @@
 			width: @content-width;
 		}
 	}
-
+	.section-top {
+		width: @container-desktop - @banner-width - @space-size*2;
+	}
 }

@@ -9,7 +9,7 @@ $(document).ready(function () {
 			var containerMiddle = container.offset().top + container.height()/2;
 			var difference = middlePage - containerMiddle;
 			//var top = Number(div.css('top').replace('px', ''));
-			$('.parallax-midground', container).css('top', -difference/100);
+			$('.parallax-midground', container).css('top', difference/200);
 			$('.parallax-background', container).css('top', -difference/20);
 			$('.parallax-background .parallax-foreground', container).css('top', -difference/20);
 		});
