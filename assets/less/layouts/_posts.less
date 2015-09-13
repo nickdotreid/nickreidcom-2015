@@ -35,6 +35,11 @@
 		overflow: hidden;
 		height: 150px;
 		margin: @space-size 0px;
+		img {
+			display: block;
+			width: auto;
+			height: 150px;
+		}
 	}
 	.slide {
 		.caption {
@@ -51,6 +56,7 @@
 		.body {
 			position:relative;
 			padding: 0px;
+			margin-left: @banner-width/2;
 			&::after {
 				content:"";
 				display: block;
@@ -63,15 +69,20 @@
 		clear: none;
 		width: @container-tablet - @banner-width - @space-size*2;
 	}
+	.gallery{
+		height: 500px; 
+		img{
+			height: 500px;
+		}
+	}
 }
 
 @media(min-width: @screen-md){
-	.post {
-
+	.post .body {
+		margin-left: @banner-width;
 	}
 	.post-top {
-		float: right;
-		clear: none;
+		margin-left: 0px;
 		width: @container-desktop - @banner-width - @space-size*2;
 	}
 }

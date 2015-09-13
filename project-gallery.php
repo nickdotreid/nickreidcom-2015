@@ -27,11 +27,10 @@ if($projects):
 	$gallery = get_field('gallery');
 	if ($gallery && sizeof($gallery) > 0) :
 		?>
-	<div class="gallery post-gallery parallax-background">
+	<div class="gallery post-gallery">
 		<div id="carousel-example-generic" class="carousel slide" data-interval="false" data-ride="carousel">
-
 			<!-- Indicators -->
-			<ol class="carousel-indicators parallax-foreground">
+			<ol class="carousel-indicators">
 				<?php foreach($gallery as $index => $slide): ?>
 				<li data-target="#carousel-example-generic" data-slide-to="<?php echo $index; ?>" class="<?php if($index == 0): echo 'active'; endif; ?>"></li>
 				<?php endforeach; ?>
@@ -40,7 +39,7 @@ if($projects):
 			<div class="carousel-inner" role="listbox">
 		<?php foreach($gallery as $index => $slide): ?>
 		<div class="item <?php if($index == 0): echo 'active'; endif; ?>">
-			<img src="<?php echo $slide['image']['url']; ?>" alt="" />
+			<img src="<?php echo $slide['image']['sizes']['large']; ?>" alt="" />
 			<div class="caption"><?php echo $slide['caption']; ?></div>
  		</div>
 		<?php endforeach; ?>
