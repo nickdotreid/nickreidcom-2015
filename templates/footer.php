@@ -2,7 +2,9 @@
   <div class="container">
   	<div class="nickreid-photo"></div>
   	<div class="wrap">
-    	<?php dynamic_sidebar('sidebar-footer'); ?>
+  		<div class="main">
+    		<?php dynamic_sidebar('sidebar-footer'); ?>
+    	</div>
 	</div>
   </div>
 </footer>
